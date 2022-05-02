@@ -16,11 +16,15 @@ To analyze the data on outcomes based on launch date, I began by adding a "years
 
 I then created a line graph to visualize the data from the pivot table which shows the relationship between outcomes and launch month. 
 
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/103215686/166182592-566a0335-21fa-4d5c-b633-b40947680948.png)
+
 ### Analysis of Outcomes Based on Goals
 
 To complete the analysis of outcomes based on their funding goals, I created a new sheet and put goal amounts in the first column. I created dollar amount ranges so we could analyze projects in a funding goal range. I then used the COUNTIFS() function to populate columns for the number of successful, failed, and canceled Kickstarter campaigns. Next, I added those numbers together to get a "total projects" column. Then, I found the percentage of successful, failed, and canceled projects. 
 
 Once I had this data I created a line chart to visualize the relationship between the Kickstarter goal amounts and the percentage of successful, failed, and canceled projects.
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/103215686/166182629-a637bbb2-fbf9-4caa-9b8d-7fe63264eaec.png)
 
 ### Challenges and Difficulties Encountered
 
@@ -28,6 +32,7 @@ A challenge I encountered during the analysis of outcomes based on goals was ens
 I did not run into challenges when analyzing outcomes based on launch dates, however, one could potentially run into challenges trying to visualize this data by not have the correct data on the pivot table. Not filtering by month would make the line graph visual less helpful.
 
 ## Results
+
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 From the analysis, I can conclude that the months of May-July have the highest number of successful campaigns and the number of successful campaigns drops significantly in November and December. The number of failed campaigns stays within a very small range throughout the year and we are not able to draw a significant conclusion based on failed campaigns.
